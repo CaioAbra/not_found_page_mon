@@ -1009,12 +1009,12 @@ button {
     padding: 0.5em 1em;
     letter-spacing: 1px;
     font-family: "Lato", sans-serif;
-    color: white;
+    color: #ffffff;
     background-color: transparent;
     border: 0;
     cursor: pointer;
     z-index: 999;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     transition: opacity 0.2s ease;
@@ -1022,7 +1022,12 @@ button {
 
 button:hover {
     opacity: 0.7;
+    background-color: #ffffff;
+    color: #7b42c3;
+    font-weight: bold;
+    transition: all .5s;
 }
+
 
 button:focus {
     outline: 0;
